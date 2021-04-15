@@ -2,7 +2,7 @@
   "name": "@dni/parquetjs",
   "description": "fully asynchronous, pure JavaScript implementation of the Parquet file format",
   "main": "parquet.js",
-  "version": "0.12.0",
+  "version": "0.12.1",
   "homepage": "https://github.com/nandosuk/parquetjs",
   "author": "NandosUK",
   "license": "MIT",
