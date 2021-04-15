@@ -358,6 +358,7 @@ var DataPageHeader = module.exports.DataPageHeader = function(args) {
   this.definition_level_encoding = null;
   this.repetition_level_encoding = null;
   this.statistics = null;
+  this.is_compressed = true;
   if (args) {
     if (args.num_values !== undefined && args.num_values !== null) {
       this.num_values = args.num_values;
@@ -381,6 +382,9 @@ var DataPageHeader = module.exports.DataPageHeader = function(args) {
     }
     if (args.statistics !== undefined && args.statistics !== null) {
       this.statistics = new ttypes.Statistics(args.statistics);
+    }
+    if (args.is_compressed !== undefined && args.is_compressed !== null) {
+      this.is_compressed = args.is_compressed;
     }
   }
 };
