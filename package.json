@@ -1,5 +1,5 @@
 {
-  "name": "@dni/parquetjs",
+  "name": "@nandos/dni_parquetjs",
   "description": "fully asynchronous, pure JavaScript implementation of the Parquet file format",
   "main": "parquet.js",
   "version": "0.12.1",
